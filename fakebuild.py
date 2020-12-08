@@ -47,7 +47,7 @@ def ls():
 def make():
     cursor.hide()
     c = "/data/data/com.termux/files/home/derp/out/.bootstrap/"
-    p = ["link","cc","compile","gotestmain"]
+    p = ["link","cc","compile","glob"]
     #These strings might not really exist lmao
     clist = [ "blueprint-parser/pkg/github.com/google/blueprint/parser.a",
               "blueprint-gotestmain/pkg/github.com/google/blueprint/gotestmain.a",
